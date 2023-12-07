@@ -32,6 +32,8 @@ public class Main {
         System.out.println("Total harga setelah diskon: $" + hargaSetelahDiskon);
     }
 }
+
+
 2. Autentikasi
 import java.util.Scanner;
 
@@ -57,6 +59,7 @@ public class AutentikasiPengguna {
     }
 }
 
+
 3. Fibonacci
    import java.util.Scanner;
 
@@ -80,6 +83,8 @@ public class FibonacciSeries {
         }
     }
 }
+
+
 4. Faktorisasi
 import java.util.Scanner;
 
@@ -106,6 +111,7 @@ public class Faktorisasi {
         }
     }
 }
+
 
 5. Kalkulator
 import java.util.Scanner;
@@ -164,6 +170,8 @@ public class Kalkulator {
         return num1 / num2;
     }
 }
+
+
 6. Palindrom
 import java.util.Scanner;
 
@@ -198,6 +206,8 @@ public class PalindromeChecker {
         return true;
     }
 }
+
+
 7. Perpustakaan Buku
 public class Buku{
     private String judul;
@@ -239,6 +249,8 @@ public class Buku{
         buku1.tampilkanInfoBuku();
     }
 }
+
+
 8. Akun
 public class Akun {
 
@@ -301,6 +313,8 @@ public class Akun {
         akun1.tampilkanInfoAkun();
     }
 }
+
+
 9. Stack
 
 import java.util.Stack;
