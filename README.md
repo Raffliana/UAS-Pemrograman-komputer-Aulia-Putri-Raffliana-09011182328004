@@ -4,7 +4,10 @@ Kelas : SK1A
 Nim : 09011182328004
 UJIAN AKHIR SEMESTER PEMROGRAMAN KOMPUTER
 1. Diskon
-   import java.util.Scanner;
+   
+
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
