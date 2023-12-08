@@ -218,7 +218,7 @@ public class Buku{
     private int tahunTerbit;
     private boolean tersedia;
     // inisialisasi buku
-    public UAS_progkom7(String judul, String penulis, int tahunTerbit) {
+    public Buku(String judul, String penulis, int tahunTerbit) {
         this.judul = judul;
         this.penulis = penulis;
         this.tahunTerbit = tahunTerbit;
