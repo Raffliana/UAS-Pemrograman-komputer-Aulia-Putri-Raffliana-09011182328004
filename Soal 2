@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class AutentikasiPengguna {
+    public static void main(String[] args) {
+        // Menentukan nilai username dan password yang benar
+        String usernameBenar = "Raffliana";
+        String passwordBenar = "amersayang";
+
+        // Membaca input username dan password dari pengguna
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Masukkan username: ");
+        String username = scanner.nextLine();
+        System.out.print("Masukkan password: ");
+        String password = scanner.nextLine();
+
+        // Memeriksa apakah username dan password sesuai dengan nilai yang telah ditentukan
+        if (username.equals(usernameBenar) && password.equals(passwordBenar)) {
+            System.out.println("Autentikasi Berhasil");
+        } else {
+            System.out.println("Autentikasi Gagal");
+        }
+    }
+}
