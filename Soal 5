@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class Kalkulator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double num1, num2, result;
+        char operator;
+
+        System.out.print("Masukkan angka pertama: ");
+        num1 = input.nextDouble();
+
+        System.out.print("Masukkan operator (+, -, *, /): ");
+        operator = input.next().charAt(0);
+
+        System.out.print("Masukkan angka kedua: ");
+        num2 = input.nextDouble();
+
+        switch (operator) {
+            case '+':
+                result = tambah(num1, num2);
+                System.out.println(num1 + " + " + num2 + " = " + result);
+                break;
+            case '-':
+                result = kurang(num1, num2);
+                System.out.println(num1 + " - " + num2 + " = " + result);
+                break;
+            case '*':
+                result = kali(num1, num2);
+                System.out.println(num1 + " * " + num2 + " = " + result);
+                break;
+            case '/':
+                result = bagi(num1, num2);
+                System.out.println(num1 + " / " + num2 + " = " + result);
+                break;
+            default:
+                System.out.println("Operator yang dimasukkan tidak valid.");
+                break;
+        }
+    }
+
+    public static double tambah(double num1, double num2) {
+        return num1 + num2;
+    }
+
+    public static double kurang(double num1, double num2) {
+        return num1 - num2;
+    }
+
+    public static double kali(double num1, double num2) {
+        return num1 * num2;
+    }
+
+    public static double bagi(double num1, double num2) {
+        return num1 / num2;
+    }
+}
