@@ -43,8 +43,8 @@ import java.util.Scanner;
 public class AutentikasiPengguna {
     public static void main(String[] args) {
         // Menentukan nilai username dan password yang benar
-        String usernameBenar = "admin";
-        String passwordBenar = "password123";
+        String usernameBenar = "Raffliana";
+        String passwordBenar = "amersayang";
 
         // Membaca input username dan password dari pengguna
         Scanner scanner = new Scanner(System.in);
@@ -262,7 +262,7 @@ public class Akun {
     private boolean aktif;
 
     // inisialisasi atribut akun
-    public UAS_progkom8(String username, String password) {
+    public Akun(String username, String password) {
         this.username = username;
         this.aktif = false;
     }
@@ -295,7 +295,7 @@ public class Akun {
 
     public static void main(String[] args) {
         // membuat objek akun
-        UAS_progkom8 akun1 = new UAS_progkom8("safamarefa", "Sunghoon123");
+        Akun akun1 = new Akun("Raffliana", "Amersayang");
 
         // menampilkan informasi akun sebelum diaktifkan
         System.out.println("Informasi akun sebelum diaktifkan:");
